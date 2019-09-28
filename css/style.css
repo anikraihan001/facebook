@@ -1,0 +1,199 @@
+@font-face{
+	src:url(../fonts/Segoe UI.ttf);
+	font-family: Segoe UI;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Segoe UI;
+
+
+}
+
+/*Header start*/
+header{
+	background-color: #3b5b99;
+	height: 100px;
+	border-bottom: 1px solid #24365c;
+}
+.wrapper{
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.left_side{
+	float: left;
+}
+.logo{
+padding-top: 35px;
+padding-bottom: 20px;
+}
+
+.logo img{
+	width: 100%;
+}
+.right_side{
+	padding-top: 25px;
+	float: right;
+		
+}
+.fb_login{
+	
+}
+.email{
+	float: left;
+margin-left: 15px;
+}
+.password{
+	float: left;
+	margin-left: 15px;
+}
+.fb_login label{
+	color: #fff;
+}
+
+.email input{
+	border:1px solid #24365c;
+	height: 20px;
+}
+.password input{
+	display: block;
+border:1px solid #24365c;
+	height: 20px;
+}
+.email label{
+	padding-bottom: 20px;
+}
+.password a{
+
+	color: #98b4e4;
+	text-decoration: none;
+}
+.login_btn{
+	margin-top: 20px;
+	float: left;
+	margin-left: 15px;
+}
+.login_btn input{
+	font-weight: 700;
+	height: 25px;
+	width: 55px;
+	color:#fff;
+	background:#4167b2;
+	border:1px solid #254888;
+	border-radius: 2%;
+}
+/*Header end*/
+/*Banner Start*/
+
+.banner{
+	background:linear-gradient(white,#D3D8E8);
+overflow: hidden;
+}
+.banner_left{
+	width: 60%;
+	float: left;
+	margin-top: 50px;
+	
+}
+.banner_left p{
+	font-weight: 700;
+	font-size: 20px;
+	color: #0e3860;
+	margin:0;
+}
+.banner_right{
+	width: 40%;
+	float: right;
+}
+.banner_right h2{
+	font-size: 40px;
+	color: #333333;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+.banner_right p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #1d2228;
+	margin-top: 0;
+}
+.name{
+	margin-bottom: 5px;
+	padding: 10px;
+	font-size: 16px;
+	border:1px solid #bdc7d8;
+	border-radius: 5px;
+	margin-left: 0px;
+}
+.emails{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	padding: 10px;
+	border:1px solid;
+	border-color: #bdc7d8;
+    border-radius: 5px;
+    width: 415px;
+}
+.label{
+	margin-top:5px;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-weight: 700;
+	color: #91949d;
+}
+.radio{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.label_text{
+	font-size: 19px;
+	font-weight: 400;
+	color: #343841;
+}
+.term{
+	margin: 0;
+}
+.term p{
+	display: inline-block;
+	font-size:12px;
+	color: #656668;
+	margin-top: 10px;
+}
+.term span{
+	font-weight: 500;
+	color: #3b5999;
+}
+
+.submit{
+	width: 200px;
+	font-size: 20px;
+	margin-top: 0;
+	border: 1px solid;
+    border-radius: 5px;
+    padding: 8px;
+	color: #fff;
+    cursor: pointer;
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+}
+
+
+.banner_last_text p{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-weight: 500;
+	font-size:14px;
+	color: #656668;
+}
+
+.banner_last_text span{
+	font-weight: 500;
+	color: #3b5999;
+}
+/*Banner end*/
