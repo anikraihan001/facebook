@@ -12,8 +12,9 @@ body{
 
 /*Header start*/
 header{
-	background-color: #3b5b99;
-	height: 100px;
+	background-color: #3D5A99;;
+	padding: 10px 0;
+	
 	border-bottom: 1px solid #24365c;
 }
 .wrapper{
@@ -23,18 +24,24 @@ header{
 	
 }
 .left_side{
+	width: 20%;
 	float: left;
 }
 .logo{
-padding-top: 35px;
-padding-bottom: 20px;
+		padding-top: 8px;
 }
 
-.logo img{
-	width: 100%;
+.logo h1{
+	    font-size: 42px;
+	    font-weight: 700;
+	    letter-spacing: -1px;
+    color: white;
+    margin: 0;
 }
+
+
 .right_side{
-	padding-top: 25px;
+	width: 40%;
 	float: right;
 		
 }
@@ -50,12 +57,15 @@ margin-left: 15px;
 	margin-left: 15px;
 }
 .fb_login label{
+	font-size: 14px;
 	color: #fff;
+
 }
 
 .email input{
 	border:1px solid #24365c;
 	height: 20px;
+
 }
 .password input{
 	display: block;
@@ -63,10 +73,12 @@ border:1px solid #24365c;
 	height: 20px;
 }
 .email label{
-	padding-bottom: 20px;
+	font-size: 14px;
+	color: #fff;
+	
 }
 .password a{
-
+	font-size: 14px;
 	color: #98b4e4;
 	text-decoration: none;
 }
